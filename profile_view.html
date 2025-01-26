@@ -1,0 +1,44 @@
+<html lang="en">
+    
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    <title> Profileview Web App</title>
+    <link rel="stylesheet" href="profile_view.css">
+</head>
+    <body>  
+            <div class="center" id="form-container">  
+            
+                <h1>Profile :</h1>
+              
+                        <form id="profile-form">
+                            <div class="forms"><label for="UserName">User name:</label><br>
+                                <input type="text" id="UserName" name="UserName" minlength="5" maxlength="15" required><br></div>
+                           <div class="forms"> <label for="Email">Mail ID:</label><br>
+                            <input type="email" id="Email" name="Email"  required><br></div>
+                            <div class="forms">  <label for="Department">Department:</label><br>
+                                <input type="text" id="Department" name="Department" required ><br></div>
+                           <div class="forms"> <label for="Project_Link">Project Links:</label><br>
+                            <input type="text" id="Project_Link" name="Project_Link" minlength="5" required placeholder="Enter Links seperated with commas" style="width: 300px;"><br></div>
+                            <div class="forms"> <label for="Description">Description:</label><br>
+                            <input type="text" id="Description" name="Description" minlength="10"  required ><br></div>
+                            <div class="forms"> <label for="Profile_Image">Profile Image:</label><br>
+                            <input type="file" id="Profile_Image" name="Profile_Image" accept="image/*" required><br><br></div>
+                            <input class="btn" type="submit" >
+                          </form> 
+            </div>
+            <div class="center" id="profile-container" style="display: none;">
+                <div class="profile">
+                <img id="profile-picture" src="" alt="Profile Picture" style="display: none;">
+                  <p><strong>Username:</strong> <span id="display-username"></span></p>
+                  <p><strong>Email:</strong> <span id="display-email"></span></p>
+                  <p><strong>Department:</strong> <span id="display-department"></span></p>
+                  <p><strong>Project Links:</strong> <span id="display-project_Links"></span></p>
+                  <p><strong>Description:</strong> <span id="display-description"></span></p>
+                  <button class="btn edit-btn" onclick="editProfile()">Edit Profile</button>
+                </div>
+              </div>
+              <script src="profile_view.js"></script>
+    </body>
+
+</html>
