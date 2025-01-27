@@ -69,6 +69,6 @@ This screenshot shows how users can return to the form to edit their details:
 
 
 ---
-Author: Ash  
+Author: Achudhan M  
 Acknowledgments: This project was built to explore basic web app functionalities.
 ```
