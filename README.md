@@ -62,6 +62,9 @@ This screenshot shows the form where users can input their details:
 This screenshot displays the submitted profile details:
 ![Profile View Screenshot](images/profile-view.png)
 
+### 3. Edit Mode
+This screenshot shows how users can return to the form to edit their details:
+![Edit Mode Screenshot](images/edit-mode.png)
 ---
 
 
