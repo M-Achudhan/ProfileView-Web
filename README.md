@@ -52,7 +52,18 @@ Once the form is submitted, the profile details are displayed in a user-friendly
 
 ## Screenshot
 
-App Screenshot:(images/screenshot.png) *(Add a screenshot of the app here)*
+### 1. Profile Form
+This screenshot shows the form where users can input their details:
+![Profile Form Screenshot](images/profile-form.png)
+
+---
+
+### 2. Profile View
+This screenshot displays the submitted profile details:
+![Profile View Screenshot](images/profile-view.png)
+
+---
+
 
 ---
 Author: Ash  
